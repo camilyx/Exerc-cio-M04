@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body > header {
+    background-color: #333333;
+    padding: 20px 0px;
+    color: #f3f3f3;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline; /*deixa os itens um ao lado do outro*/
+    padding: 0px 15px;
+}
+
+header li a {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #f3f3f3;
+    font-weight: bold;
+}
+
+.container {
+    width: 1566px; /*Altura de um note padrão*/
+    margin: 0 auto; /*Centralizado no canto*/
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+   /* height: 180px; */
+   border-radius: 5px;
+   width: 90%;
+}
+
+.articles article {
+    width: 33%;
+    margin-bottom: 16px;
+}
+
+section{
+    padding: 16px 0px;
+}
+
+section h2{
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    color: #0c4d07;
+}
+
+.articles article h3{
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article p{
+    margin-right: 20%;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0c4d07;
+    padding: 8px 25px;
+    margin: 8px 0px 30px 0px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+    padding: 10px 30px;
+}
+
+#sports {
+    background-color: rgba(198, 255, 160, 0.219);
+}
+
+#economy {
+    background-color: rgba(253, 253, 218, 0.678);
+}
+
+#economy .articles article a{
+    background-color: rgb(139, 100, 0);
+}
+
+#economy h2 {
+    color: rgb(139, 100, 0) ;
+} 
+
+#moda h2{
+    color: rgb(163, 11, 41);
+}
+
+#moda {
+    background-color: rgba(253, 241, 243, 0.603);
+}
+
+#moda .articles article a{
+    background-color: rgb(163, 11, 41);
+}
+
+#jogos h2{
+    color: rgb(3, 1, 102);
+}
+
+#jogos {
+    background-color: rgba(212, 212, 255, 0.623);
+}
+
+#jogos .articles article a{
+    background-color: rgb(3, 1, 102);
+}
