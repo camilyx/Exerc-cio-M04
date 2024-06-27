@@ -30,8 +30,8 @@ header li a {
 }
 
 .container {
-    width: 1566px; /*Altura de um note padrão*/
-    margin: 0 auto; /*Centralizado no canto*/
+    width: 1566px; 
+    margin: 0 auto; 
 }
 
 .articles {
