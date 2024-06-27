@@ -17,7 +17,7 @@ header .container {
 }
 
 header li{
-    display: inline; /*deixa os itens um ao lado do outro*/
+    display: inline;
     padding: 0px 15px;
 }
 
